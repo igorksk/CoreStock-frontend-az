@@ -3,6 +3,11 @@
     "rewrite": "/index.html",
     "exclude": ["/assets/*", "/*.ico", "/*.png", "/*.svg"]
   },
+  "mimeTypes": {
+    ".svg": "image/svg+xml",
+    ".js": "application/javascript",
+    ".css": "text/css"
+  },
   "globalHeaders": {
     "X-Content-Type-Options": "nosniff",
     "X-Frame-Options": "SAMEORIGIN",
