@@ -9,7 +9,7 @@ import type {
 } from '../types';
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL ?? 'http://localhost:5116/api',
+  baseURL: import.meta.env.VITE_API_URL ?? 'https://corestock-backend-hbg5bghgcgcpazdn.canadacentral-01.azurewebsites.net/api',
   headers: { 'Content-Type': 'application/json' },
 });
 
