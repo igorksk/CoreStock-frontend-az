@@ -9,7 +9,7 @@ import type { DashboardData } from '../types';
 import { KpiCard } from '../components/ui/KpiCard';
 import { Spinner } from '../components/ui/Spinner';
 import { fmt } from '../utils/format';
-import { TrendingUp, TrendingDown } from 'lucide-react';
+
 
 ChartJS.register(CategoryScale, LinearScale, BarElement, LineElement, PointElement, ArcElement, Tooltip, Legend, Filler);
 

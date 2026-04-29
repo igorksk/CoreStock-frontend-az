@@ -1,4 +1,4 @@
-import { NavLink, useLocation } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import {
   LayoutDashboard, Package, ShoppingCart, ClipboardList, BarChart3,
 } from 'lucide-react';
@@ -12,7 +12,6 @@ const NAV = [
 ];
 
 export function Sidebar() {
-  const loc = useLocation();
   return (
     <aside className="sidebar">
       <div className="sidebar-logo">
